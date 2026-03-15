@@ -2,136 +2,159 @@
 
 ## Elevator Pitch
 
-Replace this with a one sentence pitch for your game. Pretend that your were pitching your game to a executive going to the elevator, and you only had 60 seconds. You should not write more than a few sentences at most. Check [this resource](http://www.gameacademy.com/perfecting-indie-games-elevator-pitch/) for more information.
+You are a security guard at a top secret facility. Each day you are given a program, and must use it to identify whether or not your co-workers are who they say they are, or if they are an impostor trying to sneak in. Each co-worker has a prefered variable and you must trace the given program to determine whether or not they have the correct value for the variable.
 
 ## Influences (Brief)
 
-- *Influence #1*:
-  - Medium: *(Television, Games, Literature, Movies, etc.)*
-  - Explanation: *In one paragraph or less, explain why this is an influence.*
-- *Influence #2*:
-  - Medium: *(Television, Games, Literature, Movies, etc.)*
-  - Explanation: *In one paragraph or less, explain why this is an influence.*
-- *Influence #3*:
-  - Medium: *(Television, Games, Literature, Movies, etc.)*
-  - Explanation: *In one paragraph or less, explain why this is an influence.*
+- *That's Not My Neighbor*:
+  - Medium: Game
+  - Explanation: This is the game the entire project is based on. It is a game where you are the doorman for an apartment building and must use a variety of clues to determine whether or not the people coming into the building are the people who actually live there, or if they are impostors trying to sneak their way in.
+- *Papers Please*:
+  - Medium: Game
+  - Explanation: This game inspires the level progression of our game. Each day, there are more clues and the level gets harder, which is similar to how we want our game to run.
+
 
 ## Core Gameplay Mechanics (Brief)
 
-*Give a very high-level description of any core gameplay mechanics*
-
-- *Gameplay Mechanic #1*
-- *Gameplay Mechanic #2*
-- *Gameplay Mechanic #3*
-- *Gameplay Mechanic #4*
+- *Co-Workers*
+  - You will interact with a variety of different co workers every day.
+- *Your Clues/Programs*
+  - Each day you are given *x* amount of programs/functions. 
+- *Making Your Choice*
+  - Based on the given evidence you must determine whether or not your co-worker is who they say they are.
+- *Increasing Difficulty of Levels*
+  - Each day your program will get more complex, as well as more co-workers and impostors trying to enter the building.
+- *Victory vs Defeat*
+  - You lose the game if you make too many mistakes, and win if you make it to the end of the week.
 
 # Learning Aspects
 
 ## Learning Domains
 
-*Briefly list any and all of the disciplines and learning domains for this subject.*
+- Functions and Function Calls
+- Tracing Variables
+- Pointers/Adresses
 
 ## Target Audiences
 
-*Who are your learners?*
+Introductory programmers and computer science students (CISC106/108)
 
 ## Target Contexts
 
-*Describe what kinds of formal and informal learning contexts this will be used in (e.g., courses, k-12 computer labs during free time).*
+This can be used in introductory computer science classes, as well as used as a study tool for anyone.
 
 ## Learning Objectives
 
 *Remember, Learning Objectives are NOT simply topics. They are statements of observable behavior that a learner can do after the learning experience. You cannot observe someone "understanding" or "knowing" something.*
 
-- *Short Name*: *Formal Learning Objective #1*
-- *Short Name*: *Formal Learning Objective #2*
-- *Short Name*: *Formal Learning Objective #3*
+- *Variable Tracing*: Identify the value of a variable after a variety of function calls and value changes.
+- *Pointers*: Correctly determine when a pointer changes the value of the original variable.
 
 ## Prerequisite Knowledge
 
-*What do they need to know prior to trying this game?*
-
-- *Prerequisite Learning Objective #1*
-- *Prerequisite Learning Objective #2*
+- Explain what a pointer is and how one works.
+- Ability to create a basic function with multiple variables.
 
 ## Assessment Measures
 
-*Clearly identify a set of viable assessment questions AND their grading logic. The questions should be specific examples of the kinds of questions that your game could conceivably improve student performance on. For the grading logic, it could be the correct answer, a rubric for evaluating the answer, or exact logic for deriving answers.*
+Can use a pre and post-test to determine improvement of the subject.
 
+Given the following program, what is the value printed out by the print statement on line x?
+- Can be multiple choice question
+- Can be a short answer question
+- Can have multiple different questions based on the same given program
 
 
 # What sets this project apart?
 
-*Give some reasons why this game is not like every other game out there. Whether the learning objective is unique, the gameplay mechanics are new, or what. You should persuade the reader that your game is novel and worthy of development. Consider arguments that would be persuasive to a Venture Capitalist, Teacher, or Researcher. These might be focused on learning needs, too.*
-
-- *Reason #1*
-- *Reason #2*
-- *Reason #3*
-- *Reason #4*
-- *etc.*
+- Many introductory computer science students struggle with identifying function calls and when the functions change the value of variables.
+- Every programmer must be able to trace a program for coding and bug fixing purposes.
+- This game gives students an environment where they can take their time answering the questions and fully understand how tracing the program works.
 
 # Player Interaction Patterns and Modes
 
 ## Player Interaction Pattern
 
-*Describe how people play your game, how many players are involved at once, how they interact with the system works, etc.*
+This is a one-player game where the player is provided with a program with a variety of variables. The player is then presented with supposed co-workers who will tell the player a value for a certain variable, and must trace through the given program to determine whether or not the value given by the co-worker is correct. The player will then click a button either letting the co-worker in, or kicking them out if they are an impostor.
 
 ## Player Modes
 
-*Your game has one or more player modes. Describe each discrete mode, considering things like menus too. Generally describe the transitions between modes too.*
-
-- *Player mode #1*: *Description*
-- *Player mode #2*: *Description*
-- *etc.*
+This game is a single-player game. You will progress through levels until you reach the end of the game.
 
 # Gameplay Objectives
 
-- *Primary Objective #1*:
-    - Description: *Description*
-    - Alignment: *Describe how this aligns with one or more learning objectives*
-- *Primary Objective #2*:
-    - Description: *Description*
-    - Alignment: *Describe how this aligns with one or more learning objectives*
-- *etc.*
+- *Let the co-workers in*:
+    - Description: If the given variable value is correct, let the co-worker into the building.
+    - Alignment: In order to determine if the value is correct the player must trace through the program and follow the given variable.
+- *Kick the impostors out*:
+    - Description: If the given variable value is incorrect, kick the impostor out of the building.
+    - Alignment: In order to determine if the value is correct the player must trace through the program and follow the given variable.
+- *Don't get fired*:
+    - Description: Every day, if you let in too many impostors or get rid of too many co-workers, you will be fired. Your job is to avoid this.
+    - Alignment: Gives the player a punishment for incorrectly tracing the program.
+- *Get Promoted*:
+    - Description: At the end of 7 days, if you have not been fired the CEO will congradulate you and give you a promotion.
+    - Alignment: Rewards the player for correctly tracing the program.
 
 # Procedures/Actions
 
-*Describe the control scheme and what actions a user can take in the game.*
+The player will have two buttons to click. One will let the co-worker into the building, and the other will kick them out. The player will have a button where they can view and cycle through the given program and its related functions.
 
 # Rules
 
-*What resources are available to the player that they make use of?  How does this affect gameplay? How are these resources finite?*
+- If the player lets in too many impostors they get fired and lose the game.
+- If the player kicks out too many co-workers they get fired and lose the game.
+- If the player makes it to the end of the week without getting fired, they win the game and get promoted.
+- Every day the program will get more complex and the player will be faced with more supposed co-workers
+- As the program evolves, it will encorporate the following:
+  - Pointers
+  - Function calls
+  - References
+  - Equations
 
 # Objects/Entities
 
-*What other things are in the world that you need to design? These may or may not directly translate to actual objects and classes.*
+- Your office space (front desk)
+- The different co-workers
+- There is a clipboard that you click to view the programs
+- There are two buttons on the desk thay you click to either let the co-worker in or kick them out
+- Different cutscenes for the days/endings
+- A queue of co-workers waiting to get in
 
 ## Core Gameplay Mechanics (Detailed)
 
-- *Core Gameplay Mechanic #1*: *Describe in 2 paragraphs or less, along with how it generally works*
-- *Core Gameplay Mechanic #2*: *Describe in 2 paragraphs or less, along with how it generally works*
-- *Core Gameplay Mechanic #3*: *Describe in 2 paragraphs or less, along with how it generally works*
+- *Co-Workers*
+  - The co-workers are the people that will be attempting to make their way into the building. Each co-worker will have a favorite variable and will tell you a value for that variable when they enter.
+- *Your Clues/Programs*
+  - Each day you are given *x* amount of programs/functions. It is your job to click through each and trace the variables to determine whether the co-worker's given value is the value that would be printed out by the print statement or if they are incorrect.
+- *Making Your Choice*
+  - Based on the given evidence you must determine whether your co-worker is who they say they are, and let them in, or that they are an impostor trying to sneak their way in, and reject them from entering. You have two buttons to make this choice, one for each option.
+- *Increasing Difficulty of Levels*
+  - Each day your program will get more complex, as well as more co-workers and impostors trying to enter the building. This increases the difficulty as the game goes on.
+- *Victory vs Defeat*
+  - If you let too many impostors into the building or get rid of too many co-workers, the impostors will steal all the company's code and you will be executed by the CEO. If you make very few mistakes in 7 days, the company will finish their top secret project and the CEO will be happy with you. If you make it through 7 days without a single mistake, you win the game and get promoted to become the new CEO.
 
     
 ## Feedback
 
-*Explicitly describe what visual/audio/animation indicators there are that give players feedback on their progress towards their gameplay objectives (and ideally the learning objectives).*
-
-*Describe what longer-term feedback you detect and give that guides the player in their learning and lets them know how they are doing in regards to the learning objectives.*
+- The player will be able to visually see the queue of co-workers waiting to get in so they know how many are left in the day.
+- At the end of each day, the player will be able to see which co-workers they incorrectly assessed, as well as view the program for the day so they can go back and look at it now knowing the correct answer.
+- When you lose the game, you get fired.
+- When you win the game, you get promoted.
 
 # Story and Gameplay
 
 ## Presentation of Rules
 
-*Briefly describe how the player will learn the gameplay mechanics. Avoid using walls of text, since people will not read them. Think instead of natural ways of teaching mechanics iteratively and slowly.*
+On day 1, the recently-promoted security guard will guide you through the job and how it all works while also assisting you with your choices. You will then be let loose on day 2 to play the rest of the game on your own.
 
 ## Presentation of Content
 
-*Briefly describe how the player will be taught the core material they are meant to learn. Avoid using walls of text, since people will not read them. Think instead of natural ways of teaching material iteratively and slowly.*
+The game does not teach the player about functions and pointers. The player is expected to know that meterial before playing. The game's only purpose is to help the player trace a program.
 
 ## Story (Brief)
 
-*The Summary or TL;DR version of below*
+You are a new hire at a top-secret company. Your job is to make sure everyone entering the building is actually someone who works there, and not an impostor trying to sneak their way in. Every day you are given a program, and each co-worker is given a variable. Your job is to trace through the program to identify whether or not the value the co-worker states belongs to the variable is correct. Every day as the company gets closer to the deadline for the project, more co-workers will be coming in, and the program you are given will get more complex. At the end of the week, if you haven't been fired yet, you will be promoted by the CEO.
 
 ## Storyboarding
 
@@ -141,38 +164,45 @@ Replace this with a one sentence pitch for your game. Pretend that your were pit
 
 ## Aethestics
 
-*Give a sense of the aesthetics of your game, the spirit and atmosphere. Use descriptive, evocative words that can help the reader understand the emotional response of your game.*
+The game has a darkish and gloomy aethestic, similar to *Papers Please*, but more office building-esque. The environment feels very secretive and protected.
 
 ## Graphical
 
 - Characters List
-  - *Characters 1*
-  - *Characters 2*
-  - *...*
+  - Big Boss CEO: Will interact with you whenever you get fired/promoted
+  - Intro Character (Steve): Will help guide you on day 1
+  - The Variety of Co-workers/impostors
+    - Kevin
+    - James
+    - Andrew
+    - Joanna
+    - Austin
+    - Greg
+    - Deborah
+    - Ada
+    - etc... (w.i.p)
 - Textures:
-  - *Texture 1*
-  - *Texture 2*
-  - *...*
+  - Buttons
+  - Clipboard
+  - Monitor with queue
 - Environment Art/Textures:
-  - *Environment Texture 1*
-  - *Environment Texture 2*
-  - *...*
+  - Wall in the background
+  - Desk
 
 
 ## Audio
 
 
-*Game region/phase/time are ways of designating a particularly important place in the game.*
-
 - Music List (Ambient sound)
-  - *Game region/phase/time*: *Example 1*, *Example 2*
-  - *Game region/phase/time*: *Example 3*, *Example 4*
+  - Music: Darker and deeper, but not intense https://open.spotify.com/track/1QJflymJaad3iQ5DQhk8p1?si=966e4456dba749a7, https://open.spotify.com/track/3m8UfZwPMMbiWfGR8Lg2cR?si=72da290d5b25461b
   
-*Game Interactions are things that trigger SFX, like character movement, hitting a spiky enemy, collecting a coin.*
 
 - Sound List (SFX)
-  - *Game Interaction*: *Example 1*, *Example 2*
-  - *Game Interaction*: *Example 3*, *Example 4*
+  - End of day: typewriter sound effect while text appears on screen
+  - Loss Sound effect: Dark and death
+  - Win sound effect: Victory and happy
+  - New Person Arrives: Doorbell ding
+  - Button press: button is pressed
 
 
 # Metadata
