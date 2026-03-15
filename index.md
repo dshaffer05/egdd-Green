@@ -1,4 +1,4 @@
-# REPLACE THIS WITH YOUR GAME NAME
+# That's Not My Programmer
 
 ## Elevator Pitch
 
@@ -158,7 +158,9 @@ You are a new hire at a top-secret company. Your job is to make sure everyone en
 
 ## Storyboarding
 
-*Go into as much detail as needs be to visually convey the Dynamics of your game. Be detailed. Create storyboards and freeze frame images that concisely capture important key elements of your game. You are strongly recommended to sketch pictures on paper and embed them here. Be sure make it clear how previously-described mechanics come through in the dynamics.*
+![Main Menu](Title-Screen-Storyboard.png)
+![Game Screen](Game-Screen-Storyboard.png)
+![End of Day Screen](End-Of-Day-Storyboard.png)
 
 # Assets Needed
 
