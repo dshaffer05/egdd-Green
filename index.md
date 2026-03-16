@@ -158,9 +158,9 @@ You are a new hire at a top-secret company. Your job is to make sure everyone en
 
 ## Storyboarding
 
-![Main Menu](Title-Screen-Storyboard.png)
-![Game Screen](Game-Screen-Storyboard.png)
-![End of Day Screen](End-Of-Day-Storyboard.png)
+![Main Menu](Assets/Title-Screen-Storyboard.png)
+![Game Screen](Assets/Game-Screen-Storyboard.png)
+![End of Day Screen](Assets/End-Of-Day-Storyboard.png)
 
 # Assets Needed
 
