@@ -59,11 +59,93 @@ This can be used in introductory computer science classes, as well as used as a 
 
 Can use a pre and post-test to determine improvement of the subject.
 
-Given the following program, what is the value printed out by the print statement on line x?
-- Can be multiple choice question
-- Can be a short answer question
-- Can have multiple different questions based on the same given program
+### Easy Example Question (level 1)
+Given the following program:
+```
+int main() {
+    int x = 2
 
+    x = x + 2
+    y = x
+    y = y - 1
+    printf("%d\n", x);  #Line 7
+    x = y * 2
+    y = x + 3
+    printf("%d\n", y);  #Line 10
+    
+    return 0;
+}
+```
+1. What is the value printed out by the print statement on line 7?
+   - 4
+2. What is the value printed out by the print statement on line 10?
+   - 9
+     
+### Medium Example Question (level 2)
+Given the following program:
+```
+int main() {
+    int x = 4;
+    int y = 3;
+    int z = 2;
+
+    int *px = &x;
+    int *py = &y;
+
+    *px = *px + 1;    // step 1: x = x + 1
+    *py = *px + 2;    // step 2: y = x + 2
+    z = *py - 1;      // step 3: z = y - 1
+
+    px = &z;          // step 4: px now points to z
+    *px = *px + 2;    // step 5: z = z + 2
+
+    printf("%d\n", x);   // Line 16
+    printf("%d\n", y);   // Line 17
+    printf("%d\n", z);   // Line 18
+
+    return 0;
+}
+```
+1. What is the value printed out by the print statement on line 16?
+   - 5
+2. What is the value printed out by the print statement on line 17?
+   - 7
+3. What is the value printed out by the print statement on line 18?
+   - 8
+
+### Hard Example Question (level 3)
+
+Given the following program:
+```
+int main() {
+    int x = 5;
+    int y = 2;
+    int z = 3;
+
+    int *p = &x;
+    int *q = &y;
+
+    *p = *p + *q;     
+    q = &z;
+    *q = *p * z;      
+    z = x;
+    *p = *q - *p;     
+    p = &y;
+    *p = z + *q;      
+    x = x + y + z;    
+
+    printf("%d\n", x);  #line 18
+    printf("%d\n", y);  #line 19
+    printf("%d\n", z);  #line 20
+    return 0;
+}
+```
+1. What is the value printed out by the print statement on line 18?
+   - 21
+2. What is the value printed out by the print statement on line 19?
+   - 14
+3. What is the value printed out by the print statement on line 20?
+   - 7
 
 # What sets this project apart?
 
